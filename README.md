@@ -1,5 +1,6 @@
 # hello-node
 
+```
 Mac-mini:simonongcloudnative simonsoul$ aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin **********.dkr.ecr.ap-southeast-1.amazonaws.com
 Login Succeeded
 
@@ -79,4 +80,6 @@ Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
 To github.com:ioctlsg/simonongcloudnative.git
    47dd5d9..14c4b59  main -> main
-Mac-mini:simonongcloudnative simonsoul$ 
+Mac-mini:simonongcloudnative simonsoul$
+
+```
