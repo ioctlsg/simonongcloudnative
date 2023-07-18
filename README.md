@@ -32,7 +32,9 @@ up to date, audited 59 packages in 472ms
   run `npm fund` for details
 
 found 0 vulnerabilities
+
 Mac-mini:simonongcloudnative simonsoul$ docker build -t simonongcloudnative .
+
 [+] Building 2.1s (11/11) FINISHED                                                                      docker:desktop-linux
  => [internal] load build definition from Dockerfile                                                                    0.0s
  => => transferring dockerfile: 459B                                                                                    0.0s
@@ -54,7 +56,9 @@ Mac-mini:simonongcloudnative simonsoul$ docker build -t simonongcloudnative .
 
 What's Next?
   View summary of image vulnerabilities and recommendations → docker scout quickview
+
 Mac-mini:simonongcloudnative simonsoul$ docker tag simonongcloudnative:latest *************.dkr.ecr.ap-southeast-1.amazonaws.com/simonongcloudnative:latest
+
 Mac-mini:simonongcloudnative simonsoul$ docker push ************.dkr.ecr.ap-southeast-1.amazonaws.com/simonongcloudnative:latest
 The push refers to repository [*************.dkr.ecr.ap-southeast-1.amazonaws.com/simonongcloudnative]
 9e8a62775dc2: Pushed 
@@ -66,6 +70,7 @@ fe5e54eddfe0: Layer already exists
 c62e3218b67b: Layer already exists 
 61f2871f545a: Layer already exists 
 latest: digest: sha256:dd631a74da3f6cbeb8a4ad7cbf21a5ec2c61b3c3c0bbd6f0723f0b5e1c414944 size: 1994
+
 Mac-mini:simonongcloudnative simonsoul$ git add .
 Mac-mini:simonongcloudnative simonsoul$ git commit -m "push to AWS"
 [main 14c4b59] push to AWS
@@ -85,6 +90,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.08 KiB | 1.08 MiB/s, done.
 Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+
 To github.com:ioctlsg/simonongcloudnative.git
    47dd5d9..14c4b59  main -> main
 Mac-mini:simonongcloudnative simonsoul$
