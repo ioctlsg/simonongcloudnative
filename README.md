@@ -2,6 +2,8 @@
 
 ![alt text](https://github.com/ioctlsg/simonongcloudnative/blob/main/Screenshot%202023-07-18%20at%209.45.37%20PM.png)
 
+![alt text](https://github.com/ioctlsg/simonongcloudnative/blob/main/Screenshot%202023-07-18%20at%209.49.48%20PM.png)
+
 
 
 
